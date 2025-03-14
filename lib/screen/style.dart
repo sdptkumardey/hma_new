@@ -1,0 +1,1 @@
+const double frtContHeight=85.0;
