@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Hmaapp2</string>
+	<string>HMA Siliguri</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -28,6 +28,27 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+
+	<!-- URL Launcher Support -->
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<!-- Allow opening web URLs in browser -->
+		<string>http</string>
+		<string>https</string>
+
+		<!-- Allow dialing phone numbers -->
+		<string>tel</string>
+
+		<!-- Allow sending SMS -->
+		<string>sms</string>
+
+		<!-- Allow sending emails -->
+		<string>mailto</string>
+
+		<!-- Allow opening WhatsApp -->
+		<string>whatsapp</string>
+	</array>
+
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
